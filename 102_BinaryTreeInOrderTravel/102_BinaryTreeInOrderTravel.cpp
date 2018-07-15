@@ -10,6 +10,13 @@
  * };
  */
  
+ /**
+ * 题目地址： https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/
+ * 解题思路： 1.使用队列进行层序遍历，加两个检测变量 current children，
+ *              current负责检测当前层还剩几个没有输出，children负责记录下一层的个数
+ *            2.只用一个变量n代表应该存入的位置，然后进行DFS遍历每一个结点，每当访问子节点n+1
+ */
+ 
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
