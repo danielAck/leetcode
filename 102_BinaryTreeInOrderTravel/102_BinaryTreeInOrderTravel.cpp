@@ -1,14 +1,3 @@
-/**
- * 解法一：层序遍历，加两个检测变量 current children
- *         current负责检测当前层还剩几个没有输出，children负责记录下一层的个数
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
  
  /**
  * 题目地址： https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/
