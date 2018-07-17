@@ -1,7 +1,8 @@
 /*
- * 题目地址： https://leetcode-cn.com/problems/two-sum/description/
+ * 题目地址： https://leetcode-cn.com/problems/target-sum/description/
  * 解题思路： 1.DFS遍历所有情况
  *          2.动态规划方程： ways[i][j] = ways[i - 1][j - nums[i]] + ways[i - 1][j + nums[i]]
+ *             ways[i][j] - 代表数组中第i个元素之前和为j的情况个数
  *          讲解视频： https://www.youtube.com/watch?v=r6Wz4W1TbuI
  */
 
